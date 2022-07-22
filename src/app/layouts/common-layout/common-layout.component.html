@@ -1,4 +1,4 @@
-<div class="common-layout {{ 'is-' + selectedHeaderColor }}" 
+<!-- <div class="common-layout {{ 'is-' + selectedHeaderColor }}" 
     [ngClass]="{
         'is-folded': isFolded,
         'is-side-nav-dark' : isSideNavDark,
@@ -24,4 +24,10 @@
         </div>
         <app-footer></app-footer>
     </div>
-</div>
+</div> -->
+
+<app-header></app-header>
+<!-- <div> -->
+<router-outlet></router-outlet>
+<!-- </div> -->
+<app-footer></app-footer>
